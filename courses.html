@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Management System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<?php
+include "header.php";
+?>
+<body>
+    <div class="box-area">
+        <header>
+            <div class="wrapper">
+                <nav>
+	  
+<li><a href="indexx.php" class="cool-link">HOME</a> </li>
+					 <li><a href="quiz.php" class="cool-link">RECOMMENDATION</a> </li>
+                      
+                      
+                </nav>
+            </div>
+        </header>
+    
+ <div class="banner-area">
+            <h2>UNIVERSITY MANAGEMENT SYSTEM</h2>
+        </div>
+		<div class="content-area">
+            <!-- <div class="wrapper"> -->
+                <h2>Find Course Details</h2>
+
+
+<form action="courses.php" method="post">
+<br>
+<br>
+        
+
+
+Course Title: <input type = "text" name = "CourseTitle" required>
+<br>
+<br>
+    <input type="submit" value="Search">
+</form>
+</div>
+</div>
+</body>
+
+</html>
